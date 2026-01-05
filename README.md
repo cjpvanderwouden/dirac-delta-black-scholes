@@ -4,7 +4,7 @@ Code repository for **"Black-Scholes with Impulse Forcing: A PDE Framework with 
 
 ## Overview
 
-This framework treats scheduled market events (earnings, FOMC decisions) as Dirac delta forcing terms in the Black-Scholes PDE rather than modifying the underlying stochastic process:
+This framework treats scheduled market events (earnings, FOMC decisions, etc.) as Dirac delta forcing terms in the Black-Scholes PDE rather than modifying the underlying stochastic process:
 
 $$\mathcal{L}_{BS} V(S,t) = \sum_{j=1}^{N} \alpha_j(S) \delta(t - t_j)$$
 
